@@ -9,13 +9,13 @@
 <p align="center">
   Software engineer at IBM building developer tools, data APIs, and agent infrastructure.
   <br />
-  PhD in Statistics & Computer Science. Former forensic statistics researcher. Occasional R-package whisperer.
+  PhD in Statistics & Computer Science. Former forensic statistics researcher. R package author and maintainer.
 </p>
 
 <p align="center">
   <a href="https://erichare.me"><img alt="Website" src="https://img.shields.io/badge/Website-erichare.me-14b8a6?style=for-the-badge"></a>
   <a href="https://www.linkedin.com/in/eric-h-15280938/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Eric%20Hare-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
-  <a href="https://scholar.google.com/citations?user=EHAreY8AAAAJ"><img alt="Google Scholar" src="https://img.shields.io/badge/Scholar-Publications-4285f4?style=for-the-badge&logo=googlescholar&logoColor=white"></a>
+  <a href="https://orcid.org/0000-0002-4277-3146"><img alt="ORCID" src="https://img.shields.io/badge/ORCID-0000--0002--4277--3146-a6ce39?style=for-the-badge&logo=orcid&logoColor=white"></a>
   <a href="mailto:ericrhare@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-ericrhare%40gmail.com-555?style=for-the-badge"></a>
 </p>
 
@@ -28,10 +28,9 @@ Right now I work on IBM's Developer and Operator Experience team, mostly around
 and the practical edges of agent tooling: SDKs, MCP integration, model-provider abstractions,
 tool-use policy, and production ergonomics.
 
-Before that I was at DataStax, Daisi Technology, and Omni Analytics Group. Before that-before
-that, I did a PhD at Iowa State on statistical methods for matching fired bullets to the guns
-that fired them. It turns out microscopic grooves, reproducible pipelines, and good visualization
-can take you pretty far.
+Before that I was at DataStax, Daisi Technology, and Omni Analytics Group. Before that, I did a
+PhD at Iowa State on statistical methods for matching fired bullets to the guns that fired them,
+using 3D surface scans, reproducible analysis pipelines, and statistical visualization.
 
 ## What I am working on
 
@@ -43,7 +42,7 @@ can take you pretty far.
 - **Document parsing and ingestion** - integrating IBM's
   [Docling](https://github.com/docling-project/docling) into Langflow and Astra DB workflows so
   PDFs, Office docs, scans, and slides become useful context without bespoke glue code.
-- **Forensic statistics side quests** - occasional work on bullet-matching tools, `.x3p`
+- **Forensic statistics projects** - occasional work on bullet-matching tools, `.x3p`
   topography, and browser-native visualization like
   [Bullet Lens](https://bullet-lens.vercel.app/).
 
@@ -58,13 +57,14 @@ can take you pretty far.
 | [discreteRV](https://github.com/erichare/discreteRV) | R package for teaching and manipulating discrete random variables, published in the R Journal. |
 | [OmniacsDAO](https://github.com/OmniacsDAO) | Open-source data-science tooling for Numerai, DeFi analytics, and experiment workflows. |
 
-## Things I care about
+## Areas of focus
 
-```text
-AI agent tooling        statistical graphics       open-source developer experience
-R and Python packaging  reproducible research      forensic statistics
-MCP and tool use        document pipelines         teaching through software
-```
+- AI agent tooling, MCP, and tool-use policy
+- Open-source developer experience
+- Document parsing, ingestion, and retrieval workflows
+- Statistical graphics and reproducible research
+- R and Python packaging
+- Forensic statistics and teaching through software
 
 ## Start here
 
