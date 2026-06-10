@@ -40,6 +40,11 @@ using 3D surface scans, reproducible analysis pipelines, and statistical visuali
 
 ## What I am working on
 
+- **[Verity](https://github.com/erichare/verity)** - my main project outside of work: an open,
+  domain-general engine for forensic surface comparison. It produces calibrated, auditable
+  likelihood ratios - not black-box "matches" - from X3P 3-D scans of bullets, cartridge cases,
+  and toolmarks. Rust core, Python engine, R bindings, live at
+  [verity.codes](https://verity.codes).
 - **Langflow core** - SDK and Flow DevOps API work, MCP auth resilience, provider cleanup, and the
   small reliability fixes that make open-source tools feel solid.
 - **Agent safety and tool policy** - contributing to
@@ -48,8 +53,8 @@ using 3D surface scans, reproducible analysis pipelines, and statistical visuali
 - **Document parsing and ingestion** - integrating IBM's
   [Docling](https://github.com/docling-project/docling) into Langflow and Astra DB workflows so
   PDFs, Office docs, scans, and slides become useful context without bespoke glue code.
-- **Forensic statistics projects** - occasional work on bullet-matching tools, `.x3p`
-  topography, and browser-native visualization like
+- **Forensic statistics projects** - alongside Verity, maintaining the R bullet-matching
+  tooling and browser-native `.x3p` visualization like
   [Bullet Lens](https://bullet-lens.vercel.app/).
 
 ## Selected work
@@ -57,6 +62,7 @@ using 3D surface scans, reproducible analysis pipelines, and statistical visuali
 | Project | What it is |
 | --- | --- |
 | [Langflow](https://github.com/langflow-ai/langflow) | Open-source visual framework for building agentic AI applications. I am a core maintainer. |
+| [Verity](https://github.com/erichare/verity) | Open engine for forensic surface comparison - calibrated likelihood ratios from X3P 3-D scans of bullets, cartridge cases, and toolmarks. Live at [verity.codes](https://verity.codes). |
 | [Astra DB Data API](https://www.datastax.com/products/datastax-astra) | HTTP/JSON API surface, Python client work, ingestion services, and vector/hybrid-search workflows. |
 | [Docling integration](https://github.com/docling-project/docling) | Bringing IBM's document parser into Langflow and the Astra DB ingestion stack. |
 | [Aeroza](https://github.com/erichare/aeroza) | Weather-intelligence platform - real-time radar, NWS alerts, geospatial queries, nowcasting, and forecast verification. |
@@ -70,6 +76,7 @@ using 3D surface scans, reproducible analysis pipelines, and statistical visuali
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 ![Julia](https://img.shields.io/badge/Julia-9558B2?style=flat-square&logo=julia&logoColor=white)
 
